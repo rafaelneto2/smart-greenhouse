@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f215dabe-b620-45ae-bbe7-f231f50c526a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/.idea/irrigacao-inteligente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/.idea/public.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/setor1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test-01-esp32/public/.idea/public.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../irrigacao-inteligente/public/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/arduino/SensoriamentoFirebase/SensoriamentoFirebase.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/database.rules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/public/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/schematic/SensoriamentoFirebase.fzz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/schematic/SensoriamentoFirebase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/schematic/app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase-sensoriamento-master/schematic/app2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/functions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/functions/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/projeto-estufa-inteligente.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projeto-estufa-inteligente-old/public/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database.rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/../database.rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/../firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto-estufa-inteligente.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-estufa-inteligente.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../proposta-projeto-irrigação-inteligente.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../proposta-projeto-irrigação-inteligente.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../teste-projeto-irrigacao/teste-projeto-irrigacao.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../../../teste-projeto-irrigacao/teste-projeto-irrigacao.ino" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1Zia2uEGMIj59J0COkqj1Pvha1p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f215dabe-b620-45ae-bbe7-f231f50c526a" name="Default Changelist" comment="" />
+      <created>1585324165401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585324165401</updated>
+      <workItem from="1585324169472" duration="1347000" />
+      <workItem from="1585682386823" duration="6522000" />
+      <workItem from="1587952146170" duration="3436000" />
+      <workItem from="1588013895733" duration="2074000" />
+      <workItem from="1588796026853" duration="1606000" />
+      <workItem from="1589026158182" duration="136000" />
+      <workItem from="1590241240060" duration="2714000" />
+      <workItem from="1602096409360" duration="1047000" />
+      <workItem from="1603909040646" duration="17000" />
+      <workItem from="1604364035223" duration="545000" />
+      <workItem from="1604364667664" duration="147000" />
+      <workItem from="1605005300291" duration="2530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1280" y="50" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604364364264">
+      <screen x="-1920" y="-211" width="1920" height="1050" />
+    </state>
+    <state x="-1280" y="50" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738/-1920.-211.1920.1050@-1920.-211.1920.1050" timestamp="1604364364264" />
+    <state x="-1180" y="56" key="FileChooserDialogImpl" timestamp="1604364770663">
+      <screen x="-1920" y="-211" width="1920" height="1050" />
+    </state>
+    <state x="-1180" y="56" key="FileChooserDialogImpl/0.0.1366.738/-1920.-211.1920.1050@-1920.-211.1920.1050" timestamp="1604364770663" />
+  </component>
+</project>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Projeto Estufa Inteligente</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <style>
+    body{
+      background-color: #E0E0E0;
+    }
+
+    .content {
+      margin-top: 30px;
+    }
+
+    nav {
+      background-color: #F9A825;
+    }
+
+    .statistic {
+      font-size: 8em;
+      margin-top: 15px !important;
+    }
+
+    .pt10px{
+      padding-top: 10px;
+    }
+
+    .card {
+      min-height: 250px;
+    }
+
+    .activator {
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px){
+      .statistic {
+        font-size: 5em;
+      }
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="navbar-fixed">
+  <nav class="nav-extended">
+    <div class="nav-wrapper center pt10px">
+      <h5>Projeto Estufa Inteligente</h5>
+    </div>
+  </nav>
+</div>
+<div class="container-fluid content">
+  <br/>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image center">
+          <span id="currentTemp" class="statistic">-</span>
+        </div>
+        <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Temperatura
+                <i class="material-icons right">more_vert</i>
+              </span>
+          Clique para ver histórico
+        </div>
+        <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Histórico
+                <i class="material-icons right">close</i>
+              </span>
+          <canvas id="tempLineChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image center">
+          <span id="currentUmidAr" class="statistic">-</span>
+        </div>
+        <div class="card-content activator">
+              <span class="card-title grey-text text-darken-4">
+                Umidade do Ar
+                <i class="material-icons right">more_vert</i>
+              </span>
+          Clique para ver histórico
+        </div>
+        <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Histórico
+                <i class="material-icons right">close</i>
+              </span>
+          <canvas id="umidArLineChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image center">
+        <span id="currentUmidSolo" class="statistic">-</span>
+      </div>
+      <div class="card-content activator">
+          <span class="card-title grey-text text-darken-4">
+            Umidade do Solo
+            <i class="material-icons right">more_vert</i>
+          </span>
+        Clique para ver histórico
+      </div>
+      <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">
+            Histórico
+            <i class="material-icons right">close</i>
+          </span>
+        <canvas id="umidSoloLineChart"></canvas>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card" style="padding-bottom:20px">
+        <div class="card-image center">
+          <i id="ativaLamp" class="material-icons statistic">wb_incandescent</i>
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">
+            Aquecimento
+          </span>
+          <span class="col s12">
+            <i class="material-icons left">wb_incandescent</i>
+            <span id="lampAtivada">-</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card" style="padding-bottom:20px">
+        <div class="card-image center">
+          <i id="ativaCooler" class="material-icons statistic">toys</i>
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">
+            Ventilação
+          </span>
+          <span class="col s12">
+            <i class="material-icons left">toys</i>
+            <span id="coolerAtv">-</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card" style="padding-bottom:20px">
+        <div class="card-image center">
+          <i id="ativaValvula" class="material-icons statistic">invert_colors</i>
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">
+            Irrigação
+          </span>
+          <span class="col s12">
+            <i class="material-icons left">invert_colors</i>
+            <span id="valvAtivada">-</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase.js"></script>
+<script src="script.js"></script>
+</html>
